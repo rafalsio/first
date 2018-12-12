@@ -43,17 +43,18 @@ ptr->foo();
 tab[2]->foo();
 
 cout << "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" << endl;
-//A tabOb[4];
-//A oA = A();
-//B oB{};
-//C oC;
-//tabOb[0] = oA;
-//tabOb[1] = oB;
-//tabOb[2] = oC;
-//tabOb[3] = C();
-//for (auto in : tabOb)
-//    in.foo();
-//cout << "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" << endl;
+A tabOb[4];
+A oA = A();
+B oB{};
+C oC;
+tabOb[0] = oA;
+tabOb[1] = oB;
+tabOb[2] = oC;
+tabOb[3] = C();
+for (auto in : tabOb)
+    in.foo();
+
+cout << "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" << endl;
 oC.foo();
 tabOb[3].foo();
 cout << "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" << endl;
